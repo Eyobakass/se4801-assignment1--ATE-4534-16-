@@ -1,3 +1,5 @@
+//ATE/4534/16
+
 package com.shopwave.repository;
 import com.shopwave.model.Product;
 import org.junit.jupiter.api.Test;
@@ -13,7 +15,7 @@ class ProductRepositoryTest {
 
     @Autowired
     private ProductRepository repo;
-    
+
     @Test
     void testSearch() {
         Product p = new Product();
